@@ -1,8 +1,5 @@
 require 'minitest/autorun'
-
-def mined_minds_function(number)
-	1
-end
+require_relative 'functions.rb'
 
 class TestMMFunctions < Minitest::Test
 	def test_one_equals_one()
